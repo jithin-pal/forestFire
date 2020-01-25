@@ -15,8 +15,8 @@ import time
 
 API_KEY='81I75FZRBKZNBC01'
 CHANNEL1='964374'
-temp_url = 'https://api.thingspeak.com/channels/964374/fields/1.json?results=2'
-hum_url = 'https://api.thingspeak.com/channels/964374/fields/2.json?results=2'
+temp_url = 'https://api.thingspeak.com/channels/964374/fields/1.json?results=1'
+hum_url = 'https://api.thingspeak.com/channels/964374/fields/2.json?results=1'
 
 def take_data(temp_url, hum_url):
     while True:
